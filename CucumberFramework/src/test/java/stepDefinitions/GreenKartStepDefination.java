@@ -1,0 +1,25 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class GreenKartStepDefination {
+	
+	@Given("User is on GreenCart Landing page")
+	public void user_is_on_green_cart_landing_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@When("User seached with Shortname {string} and extracted actual name of product")
+	public void user_seached_with_shortname_and_extracted_actual_name_of_product(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+	@Then("User searched for same shortname in Offers page to check if product exist")
+	public void user_searched_for_same_shortname_in_offers_page_to_check_if_product_exist() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}
